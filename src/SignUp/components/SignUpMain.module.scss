@@ -1,0 +1,13 @@
+.mainBg {
+  height: 300px;
+  border-radius: 0px 0px 0px 50px;
+  background: linear-gradient(296deg, #f8e7e5 2.37%, #e8f6fe 65.21%);
+  .mainImg {
+    width: 20%;
+    top: -30%;
+  }
+  .mainTitle {
+    bottom: 20%;
+    border-radius: 0 15px 15px 0;
+  }
+}

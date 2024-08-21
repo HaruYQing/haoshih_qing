@@ -1,0 +1,17 @@
+.menuItems {
+  box-sizing: content-box;
+  width: 20%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default {
+  background-color: #a1cae3;
+}
+
+.hovered {
+  background-color: #546975;
+}

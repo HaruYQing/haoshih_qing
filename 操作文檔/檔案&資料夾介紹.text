@@ -1,0 +1,18 @@
+Bootstrap-icon引入
+import "bootstrap-icons/font/bootstrap-icons.css";
+Bootstrap已經在App.js引入不需要寫
+
+public{
+    images＝>放圖片跟icom
+    (如果會要在JSX檔案url public 為相對路徑，可省略public跟前面的路徑，
+     例如：images/img/sun.png)
+
+
+}
+src{
+    utils ＝>可複用JS 方法
+    components＝>可複用components的JSX檔案
+    Layout.jsx＝>放各頁路由
+    style.scss＝>自定義className 命名規則：flex-start
+    每個page一個資料夾（小寫Page名稱）＝>components JSX名稱一律大寫
+}

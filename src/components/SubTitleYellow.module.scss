@@ -1,0 +1,16 @@
+.title {
+  width: 250px;
+  height: 90px;
+  text-align-last: center;
+  background-image: url(../../public/images/img/second-title-yellow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}

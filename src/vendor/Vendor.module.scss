@@ -1,0 +1,14 @@
+.header {
+  border-radius: 0px 0px 0px 50px;
+  background: linear-gradient(160deg, #f7ea57 -178.05%, #e8f6fe 85.89%);
+  .headerText {
+    height: 70px;
+  }
+  .carousel {
+    img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+}

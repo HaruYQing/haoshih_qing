@@ -1,0 +1,118 @@
+.containerSize {
+  padding: 1rem;
+  .header {
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .title {
+    margin-bottom: 0;
+  }
+
+  .floorPlanRow {
+    margin-bottom: 1.5rem;
+  }
+
+  .floorPlan {
+    position: relative;
+    height: 490px;
+  }
+
+  .mainStage {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #000;
+    padding: 10px;
+    writing-mode: vertical-rl;
+  }
+
+  .stallRow {
+    position: absolute;
+    right: 13%;
+    width: 70%;
+    display: flex;
+  }
+
+  .stall {
+    width: 20%;
+    aspect-ratio: 1;
+    border: 1px solid #000;
+    margin: 0 1%;
+    text-align: center;
+    align-content: center;
+    border-radius: 15%;
+  }
+
+  .dot {
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+  }
+  .dot2 {
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+    top: 100%;
+  }
+  .dotYellow {
+    background-color: #f7ea57;
+  }
+
+  .dotBlue {
+    background-color: #b7efe0;
+  }
+
+  .dotRed {
+    background-color: #f8e7e5;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .searchButton {
+    display: flex;
+    align-items: center;
+  }
+
+  .buttonIcon {
+    margin-right: 0.25rem;
+  }
+
+  .iconButton {
+    border-radius: 50%;
+    padding: 0.25rem;
+    margin-right: 0.5rem;
+  }
+
+  .iconButton:last-child {
+    margin-right: 0;
+  }
+  .toiletOnClick {
+    background-color: rgb(239, 225, 65);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(239, 225, 65, 0.6), 0 0 0 12px rgba(239, 225, 65, 0.3);
+  }
+  .benchOnClick {
+    background-color: rgb(240, 158, 149);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(240, 158, 149, 0.8), 0 0 0 12px rgba(240, 158, 149, 0.3);
+  }
+  .trashOnClick {
+    background-color: rgb(93, 238, 199);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(93, 238, 199, 0.8), 0 0 0 10px rgba(93, 238, 199, 0.3);
+  }
+  .tagSpan {
+    border: none;
+    border-radius: 50%;
+    background-color: #b7efe0;
+  }
+}
+  

@@ -1,0 +1,15 @@
+.sunImg {
+  position: absolute;
+  left: -15%;
+  animation: move 11s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,13 @@
+.custom-tab {
+    &.nav-link {
+      color: black !important;
+      
+      &.active {
+        color: #84afc9 !important;
+      }
+      
+      &:hover, &:focus {
+        color: #84afc9 !important;
+      }
+    }
+  }

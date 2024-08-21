@@ -1,0 +1,28 @@
+// 1.安裝：npm i -D node-sass（專案已安裝完畢）
+// ——————————————————————————————
+// 2.Scss 檔案命名規則
+// 該componen名稱.module.scss
+// ex：Home.jsx => Home.module.scss
+// ＊注意第一個字母要大寫！！！
+// ————————————————————————————————
+// 4.變數宣告取用
+// 參考資料＝> https://hackmd.io/@Heidi-Liu/sass-css-preprocessor
+
+// className命名以該功能設定命名 ex:homeBg
+// 取用在JSX 檔案使用 PageName.module.scss
+
+// PageName.module.scss
+.homeBg {
+  background-color: yellow;
+}
+// PageName.jsx
+// ex:<div className="style.homeBg"/>
+
+// 範例
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}

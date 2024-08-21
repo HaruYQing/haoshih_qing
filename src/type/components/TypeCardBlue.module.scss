@@ -1,0 +1,12 @@
+.cardSize {
+  height: 450px;
+
+  .cardBg {
+    background: rgba(232, 246, 254, 0.8);
+    translate: -6% 10%;
+    z-index: 1;
+    .cardText {
+      text-align: justify;
+    }
+  }
+}

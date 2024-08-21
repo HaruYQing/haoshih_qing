@@ -1,0 +1,45 @@
+.cardSize {
+  width: 30%;
+
+  .cardStyle {
+    .infoImg {
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+    }
+
+    .date {
+      background-color: yellow;
+      display: inline-block;
+      padding: 0 8px;
+      position: absolute;
+      top: -40px;
+      left: 6%;
+
+      > div {
+        &:first-child {
+          font-weight: 700;
+        }
+        &:nth-child(2) {
+          margin: -12px 21px;
+        }
+        &:last-child {
+          margin: -35px -3px 5px 49px;
+        }
+      }
+    }
+    .infoText {
+      color: gray;
+      font-size: 1.5rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: 2.8em;
+      line-height: 1.4em;
+    }
+  }
+}
